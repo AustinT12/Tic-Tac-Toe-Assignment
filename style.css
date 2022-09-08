@@ -1,0 +1,44 @@
+.header {
+  font-size: 3em;
+  color: black;
+  background: #40404062;
+  text-align: center;
+  height: 2.5em;
+  text-shadow: 2px 3px 3px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+}
+
+#description {
+  font-size: 2em;
+  color: black;
+  height: 50px;
+  text-shadow: 2px 3px 3px grey;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.square {
+  width: 175px;
+  height: 170px;
+  background: white;
+  border: 4px solid black;
+  margin: 5px -5px -5px 4px;
+}
+
+.highlight {
+  border-color: rgb(0, 255, 17);
+}
